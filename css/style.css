@@ -4,12 +4,12 @@ body {
     background-color: #283534;
 }
 
-#bigwrapper{
+/*#bigwrapper{
     float:left;
     margin-left:50%;
     position:relative;
     border: solid 2px red;
-}
+}*/
 
 #wrapper {
     background-color: #283534;
@@ -17,12 +17,13 @@ body {
     height: 800px;
     margin-right: auto;
     margin-left: auto;
+    text-align: center;
 }
 
 #ai2html {
     width: inherit;
     height: inherit;
-    display: block;
+    display: inline-block;
     margin: 0;
 }
 
