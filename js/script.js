@@ -37,10 +37,4 @@ window.addEventListener('resize', function() {
 
 });
 
-$(document).ready(function() {
-    var float_width = $('#bigwrapper').width();
-    var left_spacing = float_width / 2;
-
-    $('#bigwrapper').css('left', '-' + left_spacing);
-});
 
