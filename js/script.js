@@ -6,15 +6,15 @@ console.log(screenWidth);
 
 function changeIframeSrc (screenWidth) {
 
-    if (screenWidth > 1470) {
+    if (screenWidth > 1333) {
 
         iframe.attr('src',url + "retina.html");   
     
-    } else if ((screenWidth > 1286) && (screenWidth < 1471)) {
+    } else if ((screenWidth > 1154) && (screenWidth < 1334)) {
     
         iframe.attr('src',url + "desktop.html");   
 
-    } else if ((screenWidth > 570) && (screenWidth < 1287)) {
+    } else if ((screenWidth > 570) && (screenWidth < 1155)) {
     
         iframe.attr('src',url + "laptop.html");   
 
