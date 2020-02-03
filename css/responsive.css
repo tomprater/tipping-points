@@ -1,4 +1,4 @@
-@media all and (min-width: 1333px) {
+@media all and (max-width: 1333px) {
     body {
         overflow: none;
     }

@@ -4,6 +4,12 @@ body {
     background-color: #283534;
 }
 
+#bigwrapper{
+    float:left;
+    margin-left:50%;
+    position:relative;
+}
+
 #wrapper {
     background-color: #283534;
     width: 1470px;
