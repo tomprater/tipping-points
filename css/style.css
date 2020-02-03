@@ -8,6 +8,7 @@ body {
     float:left;
     margin-left:50%;
     position:relative;
+    border: solid 2px red;
 }
 
 #wrapper {
