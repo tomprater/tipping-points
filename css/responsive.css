@@ -1,4 +1,4 @@
-@media all and (max-width: 1470px) {
+@media all and (max-width: 2500px) {
     body {
         overflow: none;
     }
@@ -9,7 +9,7 @@
     }
 
     #ai2html {
-        margin-top: 50px;
+        /*margin-top: 50px;*/
         /*overflow: hidden;*/
         -ms-overflow-style: none;
     }
@@ -27,15 +27,15 @@
     }
 }
 
-@media all and (max-width: 1287px) {
+@media all and (max-width: 1154px) {
     #wrapper {
-        width: 1140px;
-        height: 620px;
+        width: 1154px;
+        height: 800px;
     }
 
-    #ai2html {
+    /*#ai2html {
         margin-top: 80px;
-    }
+    }*/
 
     h1 {
         font-size: 24px;
