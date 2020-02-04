@@ -10,18 +10,18 @@ function changeIframeSrc (screenWidth) {
 
         iframe.attr('src',url + "retina.html");   
     
-    } else if ((screenWidth > 1154) && (screenWidth < 1334)) {
-    
-        iframe.attr('src',url + "desktop.html");   
-
-    } else if ((screenWidth > 570) && (screenWidth < 1155)) {
+    } else if ((screenWidth > 768) && (screenWidth < 1334)) {
     
         iframe.attr('src',url + "laptop.html");   
+
+    } else if ((screenWidth > 375) && (screenWidth < 768)) {
+    
+        iframe.attr('src',url + "tablet.html");   
 
     
     } else {
 
-        iframe.attr('src',url + "tablet.html");   
+        iframe.attr('src',url + "mobile.html");   
 
     }
 
