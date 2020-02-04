@@ -1,6 +1,6 @@
 @media all and (max-width: 1440px) {
     body {
-        overflow: none;
+        overflow: hidden;
         margin:0;
     }
 /*
@@ -11,7 +11,7 @@
 
     #ai2html {
         /*margin-top: 50px;*/
-        /*overflow: hidden;*/
+        overflow: hidden;
         -ms-overflow-style: none;
     }
 
@@ -23,31 +23,27 @@
 @media screen and (min-width: 1024px) and (max-width: 1339px) {
     #wrapper{
         width:1440px;
+        height:800px;
     }
 }
 @media screen and (min-width: 769px) and (max-width: 1023px) {
     #wrapper{
         width:1024px;
+        height:800px;
     }
-    /*#wrapper {
-        width: 1154px;
-        height: 800px;
-    }*/
-
-    /*#ai2html {
-        margin-left: 20px;
-    }*/
 }
 
-@media screen and (min-width: 570px) and (max-width: 768px) {
+@media screen and (min-width: 571px) and (max-width: 768px) {
     #wrapper{
         width: 768px;
+        height:800px;
     }
 }
 
-@media screen and (min-width: 426px) and (max-width: 569px) {
+@media screen and (min-width: 426px) and (max-width: 570px) {
     #wrapper{
-        width:570px;
+        width: 570px;
+        height:500px;
     }
 }
 @media screen and (max-width: 425px) {
