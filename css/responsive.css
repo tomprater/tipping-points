@@ -33,9 +33,9 @@
         height: 800px;
     }
 
-    /*#ai2html {
-        margin-top: 80px;
-    }*/
+    #ai2html {
+        margin-left: 20px;
+    }
 
     h1 {
         font-size: 24px;
@@ -64,7 +64,7 @@
     }
 
     #ai2html {
-        width: 919px;
+        width: 562px;
         height: 500px;
         margin-top: 0px;
     }
