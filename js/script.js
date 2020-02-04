@@ -10,7 +10,7 @@ function changeIframeSrc (screenWidth) {
 
         iframe.attr('src',url + "retina.html");   
     
-    } else if ((screenWidth > 769) && (screenWidth < 1440)) {
+    } else if ((screenWidth >= 768) && (screenWidth <= 1440)) {
     
         iframe.attr('src',url + "laptop.html");   
 

@@ -20,7 +20,10 @@
     }
 
 }
-@media all and (max-width: 1280px) {
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+    #wrapper{
+        width:1024px;
+    }
     /*#wrapper {
         width: 1154px;
         height: 800px;
@@ -30,6 +33,13 @@
         margin-left: 20px;
     }*/
 }
+
+@media screen and (min-width: 570px) and (max-width: 768px) {
+    #wrapper{
+        width: 768px;
+    }
+}
+
 @media all and (max-width: 570px) {
     /*#wrapper {
         width: 100%;
@@ -44,3 +54,8 @@
     }
 */
 }
+@media screen and (max-width: 425px) {
+    #wrapper{
+        width:425px;
+    }
+    }
