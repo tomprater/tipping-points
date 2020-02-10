@@ -23,10 +23,13 @@ function changeIframeSrc (screenWidth) {
         iframe.attr('src',url + "tablet.html");   
 
     
-    } else {
+    } else if ((screenWidth > 414) && (screenWidth <= 569)) {
 
         iframe.attr('src',url + "mobile.html");   
 
+    } else {
+
+        iframe.attr('src',url + "mobile-small.html");   
     }
 
 }

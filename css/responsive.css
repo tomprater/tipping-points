@@ -3,11 +3,6 @@
         overflow: hidden;
         margin:0;
     }
-/*
-    #wrapper {
-        width: 1287px;
-        height: 800px;
-    }*/
 
     #ai2html {
         /*margin-top: 50px;*/
@@ -20,7 +15,7 @@
     }
 
 }
-@media screen and (min-width: 1026px) and (max-width: 1339px) {
+@media screen and (min-width: 1026px) and (max-width: 1439px) {
     #wrapper{
         width:1440px;
         height:820px;
@@ -42,9 +37,12 @@
     }
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 768px){
     #download{
         display:none;
+    }
+    #info p{
+        font-size:10px;
     }
 }
 
@@ -66,7 +64,7 @@
         width:425px;
     }
     }
-@media screen and (min-width: 325px) and (max-width: 375px) {
+@media screen and (max-width: 375px) {
     #wrapper{
         width:375px;
     }
