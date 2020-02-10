@@ -10,6 +10,10 @@
         -ms-overflow-style: none;
     }
 
+    #wrapper{
+        height:820px;
+    }
+
     #ai2html::-webkit-scrollbar {
         display: none;
     }
